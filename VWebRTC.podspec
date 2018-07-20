@@ -14,7 +14,8 @@ s.source            = { :http => 'https://github.com/Hemrajjhariya/NewSDK/archiv
 s.ios.deployment_target = '9.0'
 s.ios.vendored_frameworks = 'NewSDK-5.0/NewSDK/WebRTC.framework'
 s.ios.vendored_frameworks = 'VCXiOS.framework'
-
+s.ios.dependency 'SVProgressHUD'
+s.ios.dependency 'Socket.IO-Client-Swift'
 
 
 end
