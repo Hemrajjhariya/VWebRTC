@@ -1,0 +1,6 @@
+framework module VCXiOS {
+  umbrella header "VCXiOS.h"
+
+  export *
+  module * { export * }
+}
